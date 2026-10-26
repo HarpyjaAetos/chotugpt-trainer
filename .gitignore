@@ -1,0 +1,72 @@
+Python cache
+
+pycache/
+*.py[cod]
+
+Virtual environments
+
+.venv/
+venv/
+env/
+
+Python packaging
+
+build/
+dist/
+*.egg-info/
+
+Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+IDE settings
+
+.vscode/
+.idea/
+
+macOS files
+
+.DS_Store
+
+Jupyter Notebook
+
+.ipynb_checkpoints/
+
+Hugging Face cache
+
+.cache/
+huggingface_cache/
+HF_HOME/
+**/.cache/huggingface/
+
+Datasets and downloaded data
+
+data/
+datasets/
+*.parquet
+*.arrow
+
+Model checkpoints and weights
+
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+pytorch_model.bin
+
+Training outputs and experiment logs
+
+runs/
+wandb/
+tensorboard/
+logs/
+
+Temporary files
+
+*.tmp
+*.swp
+*.bak
